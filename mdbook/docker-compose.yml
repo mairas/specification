@@ -10,7 +10,6 @@ services:
       - 3000:3000
       - 3001:3001
     volumes:
-      # - ${PWD}/gitbook-docs:/book
       - ${PWD}/mdbook:/book
     command:
       - serve
